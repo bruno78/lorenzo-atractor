@@ -31,11 +31,11 @@ public class CanvasBoard extends PApplet {
 
 
     public void draw() {
-
-        // set the offset x axis
         float yoffset = 0;
+        // set the offset y axis
+        yoffset = mouseY;
         for (int y = 0; y < rows; y++) {
-            // set the offset y axis
+            // set the offset x axis
             float xoffset = 0;
             for (int x = 0; x < columns; x++) {
                 // feeding the 2d terrain field
@@ -44,7 +44,8 @@ public class CanvasBoard extends PApplet {
                 xoffset += 0.2;
             }
             // spreading away in y axis
-            yoffset += 0.2;
+            // scrolls the landscape up and down
+            yoffset += mouseY; // 0.2 smooth value
         }
 
 
