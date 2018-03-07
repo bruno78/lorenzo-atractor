@@ -1,1 +1,3 @@
-#The Lorenzo Atractor
+# Perlin Noise landscape field
+
+A simple landscape generated with Perlin noise
