@@ -1,10 +1,8 @@
 import processing.core.PApplet;
-import processing.core.PVector;
 
-import java.util.ArrayList;
 
 /**
- * PERLIN NOISE TERRAIN FIELD
+ * PERLIN NOISE GRASSY GREEN LANDSCAPE FIELD
  */
 public class CanvasBoard extends PApplet {
 
